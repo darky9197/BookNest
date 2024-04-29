@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+.sec-1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 130vh;
+    background-color: #F3E4FF;
+}
+.main-sec {
+    color: #ffffff;
+    background-color: #9E1FED;
+    padding: 2.5rem 2.5rem 0px 2.5rem;
+    border-radius: 20px;
+    margin: 20px 0px;
+    box-shadow: 5px 5px 17px #7e7e7e;
+}
+.main-sec-pa-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 50px 0px;
+}
+.main-sec-pa-1 .main-logo {
+    align-self: center;
+}
+.main-sec-pa-1 .nav-btns-m {
+    display: flex;
+    flex-direction: row;
+}
+.main-sec-pa-1 .main-logo a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.main-sec-pa-1 .main-logo a h1{
+    font-family: Rubik;
+    font-weight: 800;
+    font-size: 5rem;
+}
+.main-sec-pa-1 .nav-btns-m #loginbtn{
+    height: 70px;
+    width: 190px;
+    margin: 5px;
+    font-family: Roboto Condensed;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    border: 0px;
+    border-radius: 10px;
+}
+.main-sec-pa-1 .nav-btns-m #regbtn{
+    height: 70px;
+    width: 190px;
+    margin: 5px;
+    font-family: Roboto Condensed;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    border: 0px;
+    border-radius: 10px;
+}
+.main-sec-pa-1 .nav-btns-m #profilebtn{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    font-family: Roboto Condensed;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    border: 0px;
+    border-radius: 10px;
+}
+.nav-btns-m a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-btns-m .nav-burger-menu-icon i {
+    cursor: pointer;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    font-weight: 900
+}
+.nav-btns-m .burger-bars-main {
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    width: 40px;
+}
+
+.main-sec-pa-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.main-ecbanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main-ecbanner img{
+    max-width: 630px;
+
+}
+.main-sec-content {
+    margin: 2rem;
+}
+
+.main-sec-content-header h2{
+    font-family: Roboto Flex;
+    font-weight: 500;
+    font-size: 3.5rem;
+    padding: 50px 0px;
+}
+.main-search-bar-inp {
+    margin: 25px 0px;
+    height: 60px;
+    width: 550px;
+    padding-left: 20px;
+    border: 0px solid;
+    border-radius: 15px;
+    text-align: start;
+    font-size: 1.3rem;
+}
+
+.main-sec-content-searchbox .search-btn {
+    background-color: #EF4FFD;
+    height: 60px;
+    width: 60px;
+    border: 0px solid;
+    border-radius: 15px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.sec-dash {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    height: 800px;
+    margin: 50px 0px;
+    margin-bottom: 200px;
+}
+
+.dash-dashboard-container {
+    background-color: #9E1FED;
+    border-radius: 15px;
+    color: #ffffff;
+    box-shadow: 4px 4px 15px #7e7e7e;
+}
+.dash-dashboard-container > h1{
+    font-family: Roboto Condensed;
+    padding: 2rem;
+    font-size: 3.5rem;
+}
+.dash-ele-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    font-family: Roboto Condensed;
+    margin: 1rem 2rem;
+}
+
+.dash-ele-container div{
+    background-color: #ffffff;
+    color: #000000;
+    height: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dash-ele-container div h2{
+    font-size: 3rem;
+    font-family: Roboto Condensed;
+}
+.dash-ele-container div p{
+    font-size: 2.5rem;
+    color: #555555;
+    font-family: Roboto Condensed;
+}
+.request-list-cont {
+    background-color: #ffffff;
+    border: 2px solid #B720FF;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px #7e7e7e;
+}
+#reqbtn {
+    height: 70px;
+    width: 190px;
+    margin: 5px;
+    font-family: Roboto Condensed;
+    font-size: 1.5rem;
+    background-color: #9539ff;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 10px;
+}
+.request-list-cont {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.reqbar-header h1{
+    font-family: Roboto condensed;
+}
+.reqbar-header hr{
+    position: relative;
+    border: 1px solid #000000;
+    opacity: 100%;
+}
+.main-footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 400px;
+    background-color: #44006D;
+}
+
+/* Desktop - 4K */
+
+@media (max-width: 2560px){
+    .sec-1{
+        max-width: 1536px;
+    }
+    .main-footer{
+        max-width: 1536px;
+
+    }
+}
+
+/* Laptop - L */
+
+@media (max-width: 1024px) {
+    .sec-1 {
+        height: 160vh;
+    }
+    .main-ecbanner img{
+        display: none;
+    }
+    .main-sec-pa-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .dash-dashboard-container > h1{
+        font-size: 2.5rem;
+    }
+    .dash-ele-container div h2{
+        font-size: 2rem;
+    }
+    .dash-ele-container div p{
+        font-size: 2rem;
+    }
+}
+
+/* Tablets */
+
+@media (max-width: 768px) {
+    .sec-1{
+        height: 160vh;
+    }
+    .main-sec-pa-1 .main-logo a h1{
+        font-size: 4rem;
+    }
+    .main-ecbanner img{
+        display: none;
+    }
+    .main-sec-pa-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .dash-dashboard-container > h1{
+        font-size: 2.5rem;
+    }
+    .dash-ele-container div h2{
+        font-size: 2rem;
+    }
+    .dash-ele-container div p{
+        font-size: 2rem;
+    }
+    .main-sec-pa-1 .nav-btns-m #regbtn{
+        height: 60px;
+        width: 90px;
+    }
+    .main-sec-pa-1 .nav-btns-m #loginbtn{
+        height: 60px;
+        width: 90px;
+    }
+    .main-search-bar-inp{
+        width: 500px;
+    }
+    .main-sec-content-header h2{
+        font-size: 3rem;
+    }
+    .sec-dash{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .request-list-cont{
+        height: 700px;
+    }
+}
+
+/* Mobile - L */
+
+@media (max-width: 425px) {
+    .sec-1 {
+        padding: 13px;
+    }
+    .main-sec {
+        padding: 1.6rem 1.2rem;
+    }
+    .main-sec-pa-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .main-sec-pa-1 .main-logo a h1{
+        font-size: 2.5rem;
+    }
+    .main-sec-pa-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .dash-dashboard-container > h1{
+        font-size: 2rem;
+    }
+    .dash-ele-container div{
+        height: 200px;
+    }
+    .dash-ele-container div h2{
+        font-size: 1.1rem;
+    }
+    .dash-ele-container div p{
+        font-size: 1.1rem;
+    }
+    .main-sec-pa-1 .nav-btns-m #loginbtn{
+        height: 40px;
+        width: 80px;
+    }
+    .main-sec-pa-1 .nav-btns-m #regbtn{
+        display: none;
+    }
+    .main-sec-content-header h2{
+        font-size: 2rem;
+    }
+    .main-search-bar-inp{
+        width: 230px;
+        font-size: 1rem;
+        height: 50px;
+        
+    }
+    .main-sec-content-searchbox .search-btn{
+        height: 50px;
+        width: 50px;
+    }
+    .nav-btns-m .burger-bars-main{
+        display: block;
+    }
+    .reqbar-header h1{
+        font-size: 2rem;
+    }
+    #reqbtn{
+        height: 55px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 375px){
+    
+    .main-sec-pa-1 .nav-btns-m #loginbtn{
+        height: 40px;
+        width: 70px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .main-search-bar-inp{
+        width: 180px;
+        height: 45px;
+        border-radius: 10px;
+    }
+    .main-sec-content-searchbox .search-btn{
+        height: 45px;
+        width: 45px;
+        border-radius: 10px;
+    }
+}
