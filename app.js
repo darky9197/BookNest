@@ -8,7 +8,7 @@ const collectionBook = require("./configBook")
 
 
 const app = express();
-const PORT = 7000;
+const PORT = process.env.PORT || 7000;
 
 app.use(bodyParser.json());
 app.use(express.static(`public`));
